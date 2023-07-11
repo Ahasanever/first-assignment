@@ -86,7 +86,7 @@ header{
 
 .feature-flower{
     display: flex;
-    margin:0 240px 0 180px;
+    margin:0 240px 0 240px;
     text-align: center;
     text-decoration-line: underline;
 }
