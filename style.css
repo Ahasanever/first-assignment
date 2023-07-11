@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   body{font-family: 'Lato', sans-serif;
+
+    }
+/* -------header start------ */
+header{
+    width:100%;
+    height:700px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-container{
+        padding-top: 50px;
+        padding-left: 240px;
+        padding-right: 240px;
+        display: flex;
+        gap:70px;
+        
+}
+.title{
+    color: #272727;
+    font-family: Lato;
+    font-size:60px;
+    font-weight:700;
+    width: 550px;
+    margin-bottom: 15px;
+
+
+}
+.header-description{
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 500px;
+    margin-bottom: 15px;
+
+}
+.btn-primary{
+    border-radius:4px;
+    background-color: #E55473;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 43px;
+    border: none;
+
+}
+.profile-pic{
+    width: 635px;
+    height: 650px;
+}
+
+
+
+/* -------header end------ */
+
+/* --------main start--------- */
+
+/* --------feature section start------ */
+
+.feature-container{
+    margin-top: 100px;
+}
+
+.feature-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.feature-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.feature-flower{
+    text-align: center;
+}
+.img6{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+    width: 340px;
+    height: 450px;
+
+}
+
+.img5{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 20px;
+    width: 340px;
+    height: 450px;
+
+}
+.img7{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 340px;
+    height: 450px;
+}
+
+.pink-flower{
+    
+    
+}
+
+/* --------feature section end------ */
+
+/* -- ---------del section start----------- -- */
+.deal-section{
+        width:100%;
+        height:500px;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+        margin-top: 100px;
+}
+.deal-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:100px 350px 100px 350px;
+}
+.deal-tile{
+    color: #272727;
+    font-size:35px;
+    font-weight:800;
+    width:500px;
+    height:60px;
+}
+.off{
+    color:#E55473
+}
+
+.deal-description{
+    width:550px
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom:20px;
+
+}
+.sign-btn{
+    margin-left: 150px;
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border:none;
+   
+
+}
+.img8{
+    width: 300px;
+    height: 380px;
+}
+
+
+/* -- ---------del section end----------- -- */
+
+/* -----------instagram section start--------- */
+
+
+
+.instagram-title{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top:90px;
+}
+.description-container{
+    width: 580px;0px;
+    margin:0 auto;
+    margin-bottom:35px;
+    
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align:center;
+    
+}
+.instagram-pic{
+    margin:0 200px 70px 200px;
+}
+.isntagram-pic1{
+   width: 243px;
+   height: 300px;
+    margin-right: 10px;
+}
+
+/* -----------instagram section end--------- */
+
+/* ---------- bottom section start-------*/
+.bottom-section-container{
+    background-image:url('Flower Asset/Rectangle\ 9.png');
+    height: 420px;
+    margin:0px 200px 70px 200px;
+    
+    
+
+}
+.bottom-section-title{
+    padding-top:100px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.first-shop{
+    olor: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.email{
+   text-align: center;
+
+}
+
+input{
+    width:500px;
+    height:55px;
+    border-radius: 8px;
+    border:none;
+    padding-left: 15px;
+}
+button{
+    background: #E55473;
+    border:none;
+    color:#fff;
+    width:110px;
+    border-radius: 5px;
+    height:55px;
+}
+
+
+/* ---------- bottom section end------- */
+
+/* --------main end--------- */
