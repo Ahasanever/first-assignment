@@ -9,7 +9,7 @@
     }
 /* -------header start------ */
 header{
-    width:100%;
+    width:1500px;
     height:700px;
     background: rgba(229, 84, 115, 0.10);
 }
@@ -48,8 +48,9 @@ header{
     color:#fff;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 43px;
+    padding: 10px 15px;
     border: none;
+    width:150px;
 
 }
 .profile-pic{
@@ -84,7 +85,10 @@ header{
 }
 
 .feature-flower{
+    display: flex;
+    margin:0 240px 0 180px;
     text-align: center;
+    text-decoration-line: underline;
 }
 .img6{
     border-radius: 300px 300px 0px 0px;
@@ -111,15 +115,23 @@ header{
 }
 
 .pink-flower{
-    
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 80px;
     
 }
 
 /* --------feature section end------ */
 
+
+
 /* -- ---------del section start----------- -- */
 .deal-section{
-        width:100%;
+        width: 1500px;
         height:500px;
         border-radius: 8px;
         background: rgba(229, 84, 115, 0.05);
@@ -159,11 +171,8 @@ header{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
     border:none;
+    width: 150px;
    
 
 }
@@ -250,17 +259,61 @@ input{
     border-radius: 8px;
     border:none;
     padding-left: 15px;
+    margin-right: 15px;
 }
 button{
     background: #E55473;
     border:none;
     color:#fff;
-    width:110px;
+    width:140px;
     border-radius: 5px;
     height:55px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
 /* ---------- bottom section end------- */
 
 /* --------main end--------- */
+
+
+
+/* ---------footer start------------ */
+
+footer{
+    width:1500px;
+    height:450px;
+    background: #111010;
+    
+}
+.footer-title{
+    color:#fff;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+.foot-span{color:#E55473
+    
+}
+.footer-description{
+    width:560px;
+    margin: 0 auto;;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.contact-info{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ---------footer end------------ */
